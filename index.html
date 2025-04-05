@@ -6,11 +6,14 @@
 </head>
 <body>
     <div class="container">
-        <h2>Sign in Form</h2>
+        <h2>Sign Up Form</h2>
         <form onsubmit="clicksubmitbutton(event)">
-            <input type="text" id="username" placeholder="username"></br>
+            <input type="text" id="username" placeholder="username">
             </br><input type="password" id="passsword" placeholder="password">
-        </br><button type="submit">Sign IN</button>
+            </br><input type="email" id="email" placeholder="mail"
+            </br><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="phn number">
+            </br><button type="submit">Sign IN</button>
+
          </form>
          <p id="welcome-message"></p>
     </div>
